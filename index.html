@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>POS</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="header-left-side ib">
+                    <!-- <img src="./images/POS.png" alt="POS" class="pos-logo ib" /> -->
+                    <h1 class="logo-text ib">
+                        <span class="letter-p">P</span
+                        ><span class="letter-o">O</span
+                        ><span class="letter-s">S</span>
+                    </h1>
+                    <search class="searc-wrapper ib">
+                        <form action="/search">
+                            <input
+                                type="search"
+                                class="search-input"
+                                placeholder="Search product or any order..."
+                            />
+                        </form>
+                    </search>
+                </div>
+
+                <div class="header-right-side ib">
+                    <div class="calendar ib">
+                        <img
+                            src="./images/icons/calendar.svg"
+                            alt="calenadr icon"
+                            class="calendar-icon ib"
+                        /><span class="current-date ib" id="live-date"
+                            >October 18th 2002, 10:00AM</span
+                        >
+                    </div>
+                    <button
+                        class="add-table-btn ib"
+                        type="button"
+                        aria-label="Open Add Table Modal"
+                        onclick="alert('Modal would open here!')"
+                    >
+                        <span class="btn-content-wrapper ib">
+                            <img
+                                src="./images/icons/add.svg"
+                                alt="add"
+                                class="add-icon ib"
+                            /><span class="btn-text ib">ADD TABLE</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="card-wrapper">
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/avocado-toast-2.png"
+                        alt="Avocado Toast"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">AVOCADO TOAST</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/glutten.svg"
+                                    alt="gluten"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/summer-salad-2.png"
+                        alt="Summer Salad"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">SUMMER SALAD</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/free.svg"
+                                    alt="0%"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>    
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/avocado-toast-2.png"
+                        alt="Avocado Toast"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">AVOCADO TOAST</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/glutten.svg"
+                                    alt="gluten"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/summer-salad-2.png"
+                        alt="Summer Salad"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">SUMMER SALAD</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/free.svg"
+                                    alt="0%"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>    
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/avocado-toast-2.png"
+                        alt="Avocado Toast"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">AVOCADO TOAST</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/glutten.svg"
+                                    alt="gluten"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/summer-salad-2.png"
+                        alt="Summer Salad"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">SUMMER SALAD</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/free.svg"
+                                    alt="0%"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>    
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/avocado-toast-2.png"
+                        alt="Avocado Toast"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">AVOCADO TOAST</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/glutten.svg"
+                                    alt="gluten"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc2 ib">
+                    <img
+                        src="./images/dishes/summer-salad-2.png"
+                        alt="Summer Salad"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">SUMMER SALAD</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/free.svg"
+                                    alt="0%"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli.svg"
+                                    alt="chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="food-card fc1 ib">
+                    <img
+                        src="./images/dishes/chicken-wings-2.png"
+                        alt="Chicken Wings"
+                        class="product-img"
+                    />
+                    <div class="dish-info">
+                        <h2 class="dish-title">CHICKEN WINGS</h2>
+                        <div class="dish-category">
+                            <span class="ib">CATEGORY: </span>
+                            <div class="dish-info-icon-wrapper ib">
+                                <img
+                                    src="./images/icons/nuts.svg"
+                                    alt="nuts"
+                                    class="alergens"
+                                />
+                                <img
+                                    src="./images/icons/chilli-2.svg"
+                                    alt="2 chili"
+                                    class="spice-level"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </article>    
+                
+            </div>
+            <nav class="dish-category-navigation">
+                <ul class="nav-list">
+                    <li><button class="cat-btn">STARTER</button></li>
+                    <li><button class="cat-btn">MAIN COURSE</button></li>
+                    <li><button class="cat-btn">DRINKS</button></li>
+                    <li><button class="cat-btn">DESSERTS</button></li>
+                </ul>
+            </nav>
+        </main>
+        <script>
+            function updateTime() {
+                const now = new Date();
+                const options = {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                    hour: "numeric",
+                    minute: "numeric",
+                };
+                // This puts the text inside your span
+                document.getElementById("live-date").innerText =
+                    now.toLocaleDateString("en-US", options);
+            }
+            updateTime(); // Run once immediately
+            setInterval(updateTime, 60000); // Update every minute
+        </script>
+    </body>
+</html>

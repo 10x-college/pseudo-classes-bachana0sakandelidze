@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red !important; */
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    margin: 0;
+}
+
+button, 
+input, 
+textarea, 
+select {
+    font-family: inherit;
+    font-size: inherit; /* Optional: if you want them to scale with the page */
+}
+
+.ib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    height: 97px;
+    padding: 20px 29px 19px 27px;
+    border-bottom: 1px solid #ECEDED;
+}
+
+.header-container {
+    position: relative;
+}
+
+/*/* Left Side */
+
+.header-left-side {
+    height: 58px;
+}
+
+/* POS Logo/Text */
+
+.logo-text {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+    line-height: normal;
+
+    margin: 1px 109px 1px 0;
+    cursor: default;
+
+    height: max-content;
+}
+
+.letter-p {
+    color: #3D8493;
+}
+
+.letter-o {
+    color: #D89F65;
+}
+
+.letter-s {
+    color: #4A5C2F;
+}
+
+/* Search Field */
+
+.search-input {
+    width: 357px;
+    height: 58px;
+
+    background-color: #ECF3F5;
+    border: none;
+    border-radius: 10px;
+
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input:focus {
+    border: 1px solid #317e93;
+    outline: none;
+}
+
+/*/* Right Side */
+
+.header-right-side {
+    height: 58px;
+
+    position: absolute;
+    right: 0;
+}
+
+/* Calendar & Date */
+
+.calendar {
+    padding: 2px 0 2px 9px;
+
+    box-sizing: border-box;
+}
+
+.current-date {
+    font-size: 15px;
+    font-weight: 400;
+
+    margin-left: 7px;
+}
+
+
+/* Add Table btn */
+
+.add-table-btn {
+    height: 58px;
+    width: 175px;
+
+    border-radius: 10px;
+
+    margin-left: 21px;
+    border: 0;
+
+    background-color: #B1CED4;
+}
+
+.add-table-btn:hover {
+    border: 1px solid;
+    border-color: #317e93;
+}
+
+.btn-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2C3832;
+
+    margin-left: 10px;
+}
+
+main {
+    padding: 42px 0 0 140px;
+
+}
+
+.card-wrapper {
+    height: 600px;
+    max-width: 930px;
+    width: 100%;
+
+    font-size: 0;
+
+    overflow: auto;
+}
+
+.food-card {
+    width: 203px;
+    height: 214px;
+
+    background-color: #D8E6E9;
+
+    margin: 0 29px 25px 0;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+}
+
+.food-card:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.product-img {
+    height: 143px;
+}
+
+.dish-info {
+    width: 178px;
+    height: 53px;
+
+    margin: 8px 12.5px;
+
+    vertical-align: bottom;
+}
+
+.dish-title {
+    font-size: 15px;
+    font-weight: 500;
+
+    text-align: center;
+
+    margin-bottom: 9px;
+}
+
+.dish-category {
+    height: 23px;
+}
+
+.dish-category span {
+    font-size: 12px;
+    font-weight: 500;
+   
+    margin-top: 6px;
+}
+
+.dish-info-icon-wrapper {
+    float: right;
+}
+
+.spice-level {
+    margin-left: 12px;
+
+    height: 17px;
+    padding-bottom: 3px;
+}
+
+/* Dish Navigation */
+
+.dish-category-navigation {
+    height: 106px;
+    width: 980px;
+
+    background-color: #e4e4e4;
+
+    transform: translateX(-25px);
+
+    border-radius: 10px;
+
+    padding: 24px 25px;
+
+    font-size: 0;
+}
+
+.nav-list {
+    list-style: none;
+
+    text-align: justify;
+}
+
+.nav-list::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.cat-btn {
+    padding: 19px 49px;
+
+    border-radius: 10px;
+
+    background-color: #4A5C2F;
+
+    border: 0;
+
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
